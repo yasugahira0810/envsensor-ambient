@@ -19,7 +19,8 @@ o.start()
 
 latest_update = datetime.datetime.now()
 while True:
-    data = o.getLatestData(uId)
+    #data = o.getLatestData(uId)
+    data = vars()
     if data is not None:
 
         if data.tick_last_update > latest_update:
